@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "path": "data_raw/facebook.tar.gz",
+      "bytes": 732104,
+      "sha256": "78594c43169b698e99a77741bc298581af87146e4f3d3e8ad48a48361b5d92b6"
+    },
+    {
+      "path": "data_raw/facebook_combined.txt.gz",
+      "bytes": 218576,
+      "sha256": "125e84db872eeba443d270c70315c256b0af43a502fcfe51f50621166ad035d7"
+    },
+    {
+      "path": "data_raw/readme-Ego.txt",
+      "bytes": 834,
+      "sha256": "37ea26797b2689d4fcccb9b2c2162170d78d5a33d1bb77e654b772cb16f2d27a"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+outs:
+- md5: bd719af930b9b60bfbe05a634428df34
+  size: 732104
+  isexec: true
+  hash: md5
+  path: facebook.tar.gz

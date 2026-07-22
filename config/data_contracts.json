@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "unit_of_analysis": ["ego_id", "node_id"],
+  "required_raw_files": [
+    "data_raw/facebook.tar.gz",
+    "data_raw/facebook_combined.txt.gz"
+  ],
+  "required_analysis_columns": [
+    "ego_id",
+    "node_id",
+    "degree",
+    "similarity_jaccard_mean",
+    "diversity_complement",
+    "clustering",
+    "betweenness",
+    "participation_coefficient",
+    "eligible_main_regression"
+  ],
+  "ranges": {
+    "degree": {"minimum": 0, "integer": true},
+    "similarity_jaccard_mean": {"minimum": 0, "maximum": 1},
+    "diversity_complement": {"minimum": 0, "maximum": 1},
+    "clustering": {"minimum": 0, "maximum": 1},
+    "betweenness": {"minimum": 0, "maximum": 1},
+    "participation_coefficient": {"minimum": 0, "maximum": 1}
+  },
+  "privacy": {
+    "contains_direct_identifiers": false,
+    "node_identifiers": "anonymized SNAP identifiers",
+    "allowed_use": "research and education subject to the source dataset terms"
+  }
+}

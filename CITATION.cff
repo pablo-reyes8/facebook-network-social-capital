@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or analysis, please cite it as below."
+title: "Social Similarity, Cohesion, and Brokerage in Facebook Ego-Networks"
+type: software
+version: 1.0.0
+date-released: 2026-07-22
+authors:
+  - family-names: "Reyes Granados"
+    given-names: "Pablo Alejandro"
+license: MIT
+keywords:
+  - network science
+  - social capital
+  - brokerage
+  - Facebook ego-networks
+  - DataOps
+abstract: >-
+  A reproducible graph analysis of whether social similarity is associated
+  with local cohesion and social diversity with brokerage across communities.

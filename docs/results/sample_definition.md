@@ -1,0 +1,3 @@
+# Sample definition
+
+The raw dataset contains 10 ego-networks, 4,177 node--ego records (4,039 distinct anonymized IDs), and 85,087 unique alter--alter ties counted within ego-network (170,174 raw directed line records). Adding the documented ego--alter links produces 89,254 ties in the constructed graphs. After applying file-alignment, minimum-size, and feature-coverage criteria, 10 ego-networks remain. The structural sample contains 4,177 records; the similarity, cohesion, brokerage, and final regression samples contain 4,169, 4,099, 4,169, and 4,099 records, respectively. Nodes without usable attributes remain in graphs for structural calculations but are excluded from social-similarity measures.

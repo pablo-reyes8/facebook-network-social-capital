@@ -1,0 +1,14 @@
+stages:
+  analysis:
+    cmd: python run_project.py
+    deps:
+      - config/data_contracts.json
+      - data_raw/facebook.tar.gz
+      - data_raw/facebook_combined.txt.gz
+      - project_cli.py
+      - pyproject.toml
+      - run_project.py
+      - src
+    outs:
+      - data_processed
+      - outputs

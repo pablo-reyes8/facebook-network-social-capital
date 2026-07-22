@@ -1,0 +1,6 @@
+outs:
+- md5: dedbadb662ce6aae34c7d0b52903f290
+  size: 218576
+  isexec: true
+  hash: md5
+  path: facebook_combined.txt.gz

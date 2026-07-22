@@ -1,0 +1,51 @@
+schema: '2.0'
+stages:
+  analysis:
+    cmd: python run_project.py
+    deps:
+    - path: config/data_contracts.json
+      hash: md5
+      md5: b82148e7f4730894bfc23107f200f6fd
+      size: 960
+      isexec: true
+    - path: data_raw/facebook.tar.gz
+      hash: md5
+      md5: bd719af930b9b60bfbe05a634428df34
+      size: 732104
+      isexec: true
+    - path: data_raw/facebook_combined.txt.gz
+      hash: md5
+      md5: dedbadb662ce6aae34c7d0b52903f290
+      size: 218576
+      isexec: true
+    - path: project_cli.py
+      hash: md5
+      md5: 13047b6a7b85a87f3353300c9c1159cc
+      size: 6506
+      isexec: true
+    - path: pyproject.toml
+      hash: md5
+      md5: 1877a17f41794cde5f91a0e6cd4ae0b6
+      size: 1730
+      isexec: true
+    - path: run_project.py
+      hash: md5
+      md5: 5d6f85ab1c286a340cf69bfe8ac95c78
+      size: 205
+      isexec: true
+    - path: src
+      hash: md5
+      md5: 89b49984c2ce94f9bd28681ffacfd335.dir
+      size: 101458
+      nfiles: 22
+    outs:
+    - path: data_processed
+      hash: md5
+      md5: a2624fa8f3b2c833b9d163396a3a264f.dir
+      size: 13978288
+      nfiles: 83
+    - path: outputs
+      hash: md5
+      md5: 17908b59154d1f5ea7ded79a6076eea0.dir
+      size: 8065426
+      nfiles: 130

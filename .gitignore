@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.dvc/config.local
+
+# DVC cache and generated pipeline artifacts
+/data_processed/
+/outputs/
+
+# Duplicate and out-of-scope source archives
+/facebook.tar.gz
+/facebook_combined.txt.gz
+/readme-Ego.txt
+/twitter/
+
+# Local detailed output catalog
+/notes/guia_ejercicios_y_outputs_pipeline_facebook.md
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary exports
+*.tmp
+*.log.tmp
+/data_processed
+/outputs
