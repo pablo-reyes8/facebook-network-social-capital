@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![DVC](https://img.shields.io/badge/Data_Versioning-DVC-945DD6?logo=dvc&logoColor=white)](https://dvc.org/)
 [![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)](.github/workflows/ci.yml)
-[![Ruff](https://img.shields.io/badge/Code_Style-Ruff-D7FF64?logo=ruff&logoColor=black)](https://docs.astral.sh/ruff/)
 [![Pytest](https://img.shields.io/badge/Tests-14_passing-0A9EDC?logo=pytest&logoColor=white)](tests/)
 [![Coverage](https://img.shields.io/badge/Operational_Coverage-71%25-brightgreen)](tests/)
 [![Pipeline](https://img.shields.io/badge/Pipeline-17%2F17_stages-success)](docs/results/final_audit.md)
