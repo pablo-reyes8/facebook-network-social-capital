@@ -20,7 +20,7 @@ connects two forms of social capital:
 - **Bonding:** social similarity and closure within dense neighborhoods.
 - **Bridging:** social diversity and brokerage across structural communities.
 
-The project was completed as independent coursework for the **MITx
+The project was completed as part of the class **MITx
 MicroMasters Program in Statistics and Data Science**, Data Analysis module.
 It is not an official MIT research publication and does not imply endorsement
 by MIT or Facebook.
